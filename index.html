@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion movil</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/historia1.jpg','imagenes/gamaalta2.jpg','imagenes/compañias3.jpg','imagenes/futuro1.jpg')">
+
+   <div data-role="page" id="Principal" data-theme="c">
+    <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+     <h1>Telefonia celular </h1>
+    </div>
+    <div data-role="main" class="ui-content">
+   </div>
+   <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿Que es un telefono celular? </h2>
+        <p>Definicion</p>
+       </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Historia del Telefono Celular </h2>
+        <p>Muestra quien fue el creador del telefono y como fue evolucionando</p>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Clasificacion de los celulares de acuerdo a su gama</h2>
+        <p>Muestra la clasificacion de los celulares gama alta,media y baja</p>
+       </a>
+    </li>     
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Compañias en Mexico que manejan el servicio de telefonia</h2>
+        <p>Muestra algunas compañias de mexico encargadas del servicio telefonico</p>
+       </a>
+    </li>         
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Telefonos del futuro</h2>
+        <p>Se muestra algunos prototipos de telefonos </p>
+       </a> 
+     </li>
+     </ul>
+   </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<center><div class="ws_images"><ul>
+		<li><img src="data1/images/definicion1.jpg" alt="definicion1" title="definicion1" id="wows1_0"/></li>
+		<li><img src="data1/images/definicion2.jpg" alt="definicion2" title="definicion2" id="wows1_1"/></li>
+		<li><img src="data1/images/historia2.jpg" alt="historia2" title="historia2" id="wows1_2"/></li>
+		<li><img src="data1/images/gama_baja.jpg" alt="gama baja" title="gama baja" id="wows1_3"/></li>
+		<li><img src="data1/images/gama_media.jpg" alt="gama media" title="gama media" id="wows1_4"/></li>
+		<li><img src="data1/images/gama_alta.jpg" alt="gama alta" title="gama alta" id="wows1_5"/></li>
+		<li><img src="data1/images/companias1.jpg" alt="companias1" title="companias1" id="wows1_6"/></li>
+		<li><img src="data1/images/companias2.jpg" alt="companias2" title="companias2" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/futuro1.jpg" alt="css slider" title="futuro1" id="wows1_8"/></a></li>
+		<li><img src="data1/images/futuro2.jpg" alt="futuro2" title="futuro2" id="wows1_9"/></li>
+	</ul></div></center>
+	<div class="ws_bullets"><div>
+		<a href="#" title="definicion1"><span><img src="data1/tooltips/definicion1.jpg" alt="definicion1"/>1</span></a>
+		<a href="#" title="definicion2"><span><img src="data1/tooltips/definicion2.jpg" alt="definicion2"/>2</span></a>
+		<a href="#" title="historia2"><span><img src="data1/tooltips/historia2.jpg" alt="historia2"/>3</span></a>
+		<a href="#" title="gama baja"><span><img src="data1/tooltips/gama_baja.jpg" alt="gama baja"/>4</span></a>
+		<a href="#" title="gama media"><span><img src="data1/tooltips/gama_media.jpg" alt="gama media"/>5</span></a>
+		<a href="#" title="gama alta"><span><img src="data1/tooltips/gama_alta.jpg" alt="gama alta"/>6</span></a>
+		<a href="#" title="companias1"><span><img src="data1/tooltips/companias1.jpg" alt="companias1"/>7</span></a>
+		<a href="#" title="companias2"><span><img src="data1/tooltips/companias2.jpg" alt="companias2"/>8</span></a>
+		<a href="#" title="futuro1"><span><img src="data1/tooltips/futuro1.jpg" alt="futuro1"/>9</span></a>
+		<a href="#" title="futuro2"><span><img src="data1/tooltips/futuro2.jpg" alt="futuro2"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+       <img src="imagenes/logo.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion Dos</h4>
+      <h4> Maria del Angel Acosta Flores</h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>DEFINICION</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div> 
+            <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen del celular</h1>
+            <div>
+            <img src="imagenes/colapsable1.jpg" width="50%" height="50%">
+            </div>
+            </div>
+             <h2>Un teléfono móvil o celular es un teléfono portátil que puede hacer y recibir llamadas a través de una portadora de radiofrecuencia mientras el usuario se está moviendo dentro de un área de servicio telefónico. El enlace de radiofrecuencia establece una conexión con los sistemas de conmutación de un operador de telefonía móvil, que proporciona acceso a la red telefónica pública conmutada (PSTN). La mayoría de los servicios de telefonía móvil modernos utilizan una arquitectura de red celular, y por lo tanto, los teléfonos móviles son con frecuencia también llamados Teléfonos celulares o Celulares.</h2></div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen definicion','','imagenes/definicion2.jpg',1)"><img src="imagenes/definicion1.jpg" width="327" height="154" id="imagen definicion"></a>
+           </div>
+<div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, MAAF</h4>
+        </div>
+        </div>
+     </div>
+
+      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Historia del Telefono Celular</h1>   
+   </div>   
+   <div data-role="content" align="center">
+     <div>
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen de la evolucion del celular</h1>
+            <div>
+            <img src="imagenes/colapsable2.jpg" width="50%" height="50%">
+            </div>
+            </div>
+       <h2>El primer dispositivo de mano movil fue presentado por  John F. Mitchell y Martin Cooper de Motorola en 1973, usando un pesado telefono de 4,4 libras. En 1983, el DynaTAC 8000x fue el primer telefono movil de mano disponible comercialmente. Desde 1983 a 2014, las suscripciones de telefonos moviles en todo el mundo crecieron a mas de siete mil millones, habiendo mas telefonos moviles que personas en la tierra y llegando hasta el fondo de la piramide economica. En 2016 los principales fabricantes de telefonos moviles eran: Samsung, Apple y Huawei.    
+ </h2>  
+ </div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen de la historia','','imagenes/historia1.jpg',1)"><img src="imagenes/historia2.jpg" width="259" height="194" id="imagen de la historia"></a> </div>
+ <div data-role="footer" data-theme="c" data-position="fixed">
+   <h4>Aplicacion Dos, MAAF</h4>
+</div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Clasificacion por GAMA</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+            <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen de la clasificacion por gama</h1>
+            <div>
+            <img src="imagenes/gamas.jpg" width="50%" height="50%">
+            </div>
+            </div> 
+             <h2>GAMA BAJA: Son aquellos que poseen un uso muy limitado, incluso pueden llegar a cumplir la funcion de realizar llamadas. La pantalla de estos dispositivos carece de gran resolucion y tamaño, siendo tambien en algunos equipos monocromatica. El costo es muy bajo y en algunos casoso si lo adquirimos con algun abono mensual, viene de regalo.<br>
+             <center><img src="imagenes/gama baja.jpg" width="20%" height="20%"></center>
+             GAMA MEDIA: Este grupo es el mas comercializado, debido a la buena relacion costo-prestaciones, por lo general se adquiere este tipo de moviles por el motivo de querer escuchar musica, poder personalizarlo con wallpapers, ringtones, temas, o poder tomar fotografias a una calidad media, entre otras funcionalidades.<br>
+             <center><img src="imagenes/gama media.jpg" width="30%" height="30%"></center>
+             GAMA ALTA: Celulares para un publico que sabe lo que quiere, grandes pretaciones tales como GPS, WIFI, camar fotografica superior a 3MP con excelente calidad y pantallas de gran resolucion. Sin duda son los celulares mas completos, pero caros. Por lo general el costo de estos equipos superan los 300 dolares. <br>
+             <img src="imagenes/gama alta.jpg" width="20%" height="20%"> </h2></div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen gamas','','imagenes/gamaalta2.jpg',1)"><img src="imagenes/gamamedia2.jpg" width="300" height="168" id="imagen gamas"></a>
+          </div>
+ <div data-role="footer" data-theme="c" data-position="fixed">
+          <h4>Aplicacion Dos, MAAF</h4>
+        </div>
+        </div>
+     </div>
+       
+     <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Compañias Telefonicas</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+        <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen de las compañias mexicanas de telefonia celular</h1>
+            <div>
+            <img src="imagenes/companias1.jpg" width="50%" height="50%">
+            </div>
+          </div> 
+          <h2> Operadores nacionales con red propia (OMR).<br>
+<a href="http://www.telcel.com/">Telcel:</a> (subsidiaria de América Móvil) con un 72.23% de cobertura en el país.<br>
+<a href="http://www.movistar.com.mx/">Movistar:</a> operando también bajo los estándares CDMA (Digital) con un 56.78% de cobertura en el país.<br>
+
+<a href="https://www.att.com.mx/">At&t:</a> operando bajo CDMA (Digital) con un 73.54% de cobertura en el país.<br>
+
+
+*Hoy en día Unefon utiliza formalmente la red de AT&T, la red ya fue unificada y la compañía ya es capaz de enlazar conexión de velocidad 4G evolution (antes de Nextel).</h2> 
+       </div>
+       
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen compañias','','imagenes/companias3.jpg',1)"><img src="imagenes/companias2.jpg" width="275" height="183" id="imagen compañias"></a></div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+        <h4>Aplicacion Dos, MAAF</h4>
+   </div>
+   </div>
+   </div>
+          
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Telefonos del futuro</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> imagen de los telefonos del futuro</h1>
+            <div>
+            <img src="imagenes/colapsable3.jpg" width="50%" height="50%">
+            </div>
+      </div> 
+      <h2>Los celulares se han convertido en parte esencial de nuestra vida cotidiana, tanto así que no concebimos salir sin ellos y menos convivir sin las nuevas aplicaciones que estos dispositivos traen.
+ 
+Actualmente existen varios prototipos de celulares que aún no han salido al mercado, pero resultan tan espectaculares que sin duda, vale la pena conocer. ¿Quieres verlos? Presta atención:NOKIA MORPH 4  Nokia junto a la Universidad de Cambridge crearon un celular moldeable vía nanotecnología, denominado “Morph”.Lo más sorprendente es su increíble capacidad de moldearse en diferentes formas. Entre otro de sus atractivos destaca además su gran panel para ver videos.Otra de las novedades de este súper teléfono es que posee una superficie “auto-lavable” y chips electrónicos totalmente transparentes al ojo humano.
+ 
+De llegarse a concretar su fabricación masiva, este celular estaría a la venta dentro de siete años más.
+BLACK BOX  Modelo que pertenece a BenQ-Siemens y que ha sido catalogado de impresionante, porque incorpora tecnología touch, como medio de navegación, tanto en la panatalla como en todo el cuerpo del dispositivo. 
+NOKIA 888  Es el primer móvil flexible creado por el turco Tamer Nakisci, flamante ganador de los Premios de Diseño de los Países Bajos.
+ 
+Está diseñado para otorgar la máxima libertad y diversión, ya que puede cambiar de forma según las necesidades del usuario, gracias a su batería líquida. Puedes llevarlo como pulsera, enrollado en el bolsillo o como prefieras. Cuando recibe una llamada adopta la forma de los teléfonos tradicionales.
+NEC TAG  Un móvil maleable presentado por NEC Design. Al igual que los modelos antes mencionados éste adopta diferentes formas, según el uso que le quieras dar.
+ 
+Está hecho de un material con memoria, que posee varios sensores de presión para que el teléfono cambie y adopte las distintas posiciones.
+
+</h2>
+</div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen futuro','','imagenes/futuro1.jpg',1)"><img src="imagenes/futuro2.jpg" width="300" height="168" id="imagen futuro"></a> </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Aplicacion Dos, MAAF</h4>
+  </div>
+</div>
+</div> 
+                                    
+                               
+</body>
+</html>
